@@ -1,5 +1,6 @@
-body {
+body, html {
   color: rgb(236, 228, 238);
+  height: 100%;
   background-color: blueviolet;
   font-family: sans-serif;
   position: relative;
