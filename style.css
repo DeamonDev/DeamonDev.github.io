@@ -11,6 +11,11 @@ body, html {
   margin: 0 auto;
 }
 
+.code-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #393838ae;
   /* padding: 20px;
@@ -25,4 +30,8 @@ body, html {
 .nav-link { 
   padding-right: 20px;
   color: rgb(193, 227, 21);
+}
+
+.codeblock { 
+  background-color: #ae3535ae;
 }

@@ -3,6 +3,10 @@
 <head>
     <title>DeamonDev webpage</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet"
+      href="/highlighting/styles/vs.min.css">
+    <script src="/highlighting/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 
@@ -17,8 +21,41 @@
           <a href="articles/articles.html" class="nav-link">&ltarticles&gt</a>
         </nav>
 
+        <p><pre><code class="language-go">package main</code></pre></p>
+
       </header>
     </div>
+
+    <div class="code-container">
+    <pre class="python">
+      <code>
+        #file: main.py
+        class MainClass:
+          def __init__(self, num, age): 
+            self.num = num 
+            self.age = age
+
+        #file: main.py
+        class MainClass:
+          def __init__(self, num, age): 
+            self.num = num 
+            self.age = age
+
+        #file: main.py
+        class MainClass:
+          def __init__(self, num, age): 
+            self.num = num 
+            self.age = age
+      </code>
+      </pre>
+      </div>
+
+      <pre class="scala">
+      <code>
+        def func(x: Int): Int = x * 2
+      </code>
+      </pre>
+
 
 
 </body>
