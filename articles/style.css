@@ -26,3 +26,34 @@ body, html {
   padding-right: 20px;
   color: rgb(193, 227, 21);
 }
+
+.article-box { 
+  background-color: #393838ae;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.article-title { 
+  padding: 10px;
+}
+
+.article-date { 
+  padding: 10px;
+
+}
+
+.article-content { 
+  padding: 10px;
+  background-color: rgb(121, 121, 53);
+}
+
+.article-tags { 
+  padding: 10px
+
+}
+
+.read-more { 
+  padding: 10px;
+  color: rgb(193, 227, 21);
+}
+
